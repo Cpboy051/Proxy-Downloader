@@ -2,7 +2,7 @@ import requests
 import time
 
 print ("Simple Downloader Proxy")
-proxy_su = input("Type Proxy http/socks4/socks5 : ")
+proxy_su = input("[•] Type Proxy http/socks4/socks5 : ")
 out_file = input("[•] Name File : ")
 def DownloadProxy():
 	if proxy_su == "socks4":
